@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumToWordApp", "NumToWordApp\NumToWordApp.csproj", "{807C9D31-6CE7-4578-926D-3067535DB74A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{807C9D31-6CE7-4578-926D-3067535DB74A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{807C9D31-6CE7-4578-926D-3067535DB74A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{807C9D31-6CE7-4578-926D-3067535DB74A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{807C9D31-6CE7-4578-926D-3067535DB74A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
