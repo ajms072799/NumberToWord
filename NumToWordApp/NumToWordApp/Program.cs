@@ -12,6 +12,15 @@ namespace NumToWordApp
         {
             // Number to Word Application
 
+            /*
+                TODO List:
+             
+             * Input for the number.
+             * Array for the string number
+             * Convert the number to word using if/loop
+             
+             */
+
             Console.WriteLine("--------------------------------------------------");
             Console.WriteLine("\t Number to Word Application");
             Console.WriteLine("--------------------------------------------------");
