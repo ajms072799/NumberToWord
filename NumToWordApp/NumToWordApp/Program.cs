@@ -15,6 +15,8 @@ namespace NumToWordApp
             Console.WriteLine("--------------------------------------------------");
             Console.WriteLine("\t Number to Word Application");
             Console.WriteLine("--------------------------------------------------");
+            Console.Write("Enter a number: ");  // Input number for the Converting the number to words.
+            int number = Int32.Parse(Console.ReadLine());
 
             // <~ End of the Number to Word Application
             Console.ReadLine();
