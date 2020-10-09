@@ -10,6 +10,14 @@ namespace NumToWordApp
     {
         static void Main(string[] args)
         {
+            // Number to Word Application
+
+            Console.WriteLine("--------------------------------------------------");
+            Console.WriteLine("\t Number to Word Application");
+            Console.WriteLine("--------------------------------------------------");
+
+            // <~ End of the Number to Word Application
+            Console.ReadLine();
         }
     }
 }
