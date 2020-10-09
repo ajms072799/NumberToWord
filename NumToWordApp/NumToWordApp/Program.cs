@@ -21,6 +21,10 @@ namespace NumToWordApp
              
              */
 
+            // Array String Number
+            string[] singleDigitNumber = {"One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};
+            string[] doubleDigitNumber = {"Twenty", "Thirty", "Fourty","Fifty", "Sixty", "Seventy", "Eighty", "Ninety"};
+
             Console.WriteLine("--------------------------------------------------");
             Console.WriteLine("\t Number to Word Application");
             Console.WriteLine("--------------------------------------------------");
