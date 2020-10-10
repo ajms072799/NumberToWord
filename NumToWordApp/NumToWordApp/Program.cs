@@ -44,7 +44,119 @@ namespace NumToWordApp
             // <~ End Switch statement for convertion of single digit number
 
             // <~ Start If statement for converting double digit number
-            
+            if (number > 90)
+            {
+                int i, indexNumber; // making variable for initialization for loop and for getting the index number
+
+                for (i = 0; i < 1; i++)
+                {
+                    indexNumber = number - 90; // the indexNumber will be the indexNumber of the array in singleDigitNum
+                    Console.WriteLine(doubleDigitNumber[7] + singleDigitNumber[indexNumber]);
+                }
+            }
+            else if (number == 90)
+            {
+                Console.WriteLine(doubleDigitNumber[7]); // Displaying the result if number is equal to 90
+            }
+            else if (number > 80)
+            {
+                int i, indexNumber;
+
+                for (i = 0; i < 1; i++)
+                {
+                    indexNumber = number - 80;
+                    Console.WriteLine(doubleDigitNumber[6] + singleDigitNumber[indexNumber]);
+                }
+            }
+            else if (number == 80)
+            {
+                Console.WriteLine(doubleDigitNumber[6]);
+            }
+            else if (number > 70)
+            {
+                int i, indexNumber;
+
+                for (i = 0; i < 1; i++)
+                {
+                    indexNumber = number - 70;
+                    Console.WriteLine(doubleDigitNumber[5] + singleDigitNumber[indexNumber]);
+                }
+            }
+            else if (number == 70)
+            {
+                Console.WriteLine(doubleDigitNumber[5]);
+            }
+            else if (number > 60)
+            {
+                int i, indexNumber;
+
+                for (i = 0; i < 1; i++)
+                {
+                    indexNumber = number - 60;
+                    Console.WriteLine(doubleDigitNumber[4] + singleDigitNumber[indexNumber]);
+                }
+            }
+            else if (number == 60)
+            {
+                Console.WriteLine(doubleDigitNumber[4]);
+            }
+            else if (number > 50)
+            {
+                int i, indexNumber;
+
+                for (i = 0; i > 0; i++)
+                {
+                    indexNumber = number - 50;
+                    Console.WriteLine(doubleDigitNumber[3] + singleDigitNumber[indexNumber]);
+                }
+            }
+            else if (number == 50)
+            {
+                Console.WriteLine(doubleDigitNumber[3]);
+            }
+            else if (number > 40)
+            {
+                int i, indexNumber;
+
+                for (i = 0; i < 1; i++)
+                {
+                    indexNumber = number - 40;
+                    Console.WriteLine(doubleDigitNumber[2] + singleDigitNumber[indexNumber]);
+                }
+            }
+            else if (number == 40)
+            {
+                Console.WriteLine(doubleDigitNumber[2]);
+            }
+            else if (number > 30)
+            {
+                int i, indexNumber;
+
+                for (i = 0; i < 1; i++)
+                {
+                    indexNumber = number - 30;
+                    Console.WriteLine(doubleDigitNumber[1] + singleDigitNumber[indexNumber]);
+                }
+            }
+            else if (number == 30)
+            {
+                Console.WriteLine(doubleDigitNumber[1]);
+            }
+            else if (number > 20)
+            {
+                int i, indexNumber;
+
+                for (i = 0; i < 1; i++)
+                {
+                    indexNumber = number - 20;
+                    Console.WriteLine(doubleDigitNumber[0] + singleDigitNumber[indexNumber]);
+                }
+            }
+            else if (number == 20)
+            {
+                Console.WriteLine(doubleDigitNumber[0]);
+            }
+
             // <~ End If statement for converting double digit number
         }
         // <~ End of the ConvertNumToWord Function
@@ -62,7 +174,7 @@ namespace NumToWordApp
              */
 
             // Array String Number
-            string[] singleDigitNumber = {"One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};
+            string[] singleDigitNumber = {"Zero","One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};
             string[] doubleDigitNumber = {"Twenty", "Thirty", "Fourty","Fifty", "Sixty", "Seventy", "Eighty", "Ninety"};
 
             Console.WriteLine("--------------------------------------------------");
