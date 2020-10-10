@@ -44,43 +44,7 @@ namespace NumToWordApp
             // <~ End Switch statement for convertion of single digit number
 
             // <~ Start If statement for converting double digit number
-            if (number == 20)
-            {
-                Console.WriteLine(doubleDigitNumber[0]);
-            }
-            else if (number > 20)
-            {
-                switch (number)
-                { 
-                    case 21:
-                        Console.WriteLine(doubleDigitNumber[0] + singleDigitNumber[0]);
-                    break;
-                    case 22:
-                        Console.WriteLine(doubleDigitNumber[0] + singleDigitNumber[1]);
-                    break;
-                    case 23:
-                        Console.WriteLine(doubleDigitNumber[0] + singleDigitNumber[2]);
-                    break;
-                    case 24:
-                        Console.WriteLine(doubleDigitNumber[0] + singleDigitNumber[3]);
-                    break;
-                    case 25:
-                        Console.WriteLine(doubleDigitNumber[0] + singleDigitNumber[4]);
-                    break;
-                    case 26:
-                        Console.WriteLine(doubleDigitNumber[0] + singleDigitNumber[5]);
-                    break;
-                    case 27:
-                        Console.WriteLine(doubleDigitNumber[0] + singleDigitNumber[6]);
-                    break;
-                    case 28:
-                        Console.WriteLine(doubleDigitNumber[0] + singleDigitNumber[7]);
-                    break;
-                    case 29:
-                        Console.WriteLine(doubleDigitNumber[0] + singleDigitNumber[8]);
-                    break;
-                }
-            }
+            
             // <~ End If statement for converting double digit number
         }
         // <~ End of the ConvertNumToWord Function
