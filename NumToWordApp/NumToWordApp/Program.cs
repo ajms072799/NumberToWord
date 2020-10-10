@@ -14,31 +14,31 @@ namespace NumToWordApp
             switch(number)
             {
                 case 1:
-                    Console.WriteLine(singleDigitNumber[0]);
-                break;
-                case 2:
                     Console.WriteLine(singleDigitNumber[1]);
                 break;
-                case 3:
+                case 2:
                     Console.WriteLine(singleDigitNumber[2]);
                 break;
-                case 4:
+                case 3:
                     Console.WriteLine(singleDigitNumber[3]);
                 break;
-                case 5:
+                case 4:
                     Console.WriteLine(singleDigitNumber[4]);
                 break;
-                case 6:
+                case 5:
                     Console.WriteLine(singleDigitNumber[5]);
                 break;
-                case 7:
+                case 6:
                     Console.WriteLine(singleDigitNumber[6]);
                 break;
-                case 8:
+                case 7:
                     Console.WriteLine(singleDigitNumber[7]);
                 break;
-                case 9:
+                case 8:
                     Console.WriteLine(singleDigitNumber[8]);
+                break;
+                case 9:
+                    Console.WriteLine(singleDigitNumber[9]);
                 break;
             }
             // <~ End Switch statement for convertion of single digit number
